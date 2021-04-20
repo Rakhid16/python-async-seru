@@ -18,7 +18,6 @@ cursor = conn.cursor()
 def get_pokemon(number: int) -> str:
     pokemon = requests.get(f'https://pokeapi.co/api/v2/pokemon/{number}')
     pokemon = pokemon.json()['name']
-
     print(pokemon)
 
     return pokemon
