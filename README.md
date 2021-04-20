@@ -22,7 +22,7 @@ $ python3 create_db.py
 ## DB Scenario
 | Row | Synchronous | Asynchronous |
 | :---:   | :-: | :-: |
-| 4314 | 6.6 s | - |
+| 43104 | 6.6 s | - |
 | 86208 | - | 2 s |
 | 172416 | 26 s | - |
 | 344832 | - | 8.9 s |
