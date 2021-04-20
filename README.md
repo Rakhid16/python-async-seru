@@ -16,7 +16,7 @@ $ python3 create_db.py
 | Method | Seconds  |
 | :---:   | :-: |
 | Synchronous | 131 or 199 |
-| Multiprocess | 8.6 |
+| Multithread | 9.5 |
 | Multiprocess | 8.6 |
 | Asynchronous | 2.7 |
 
