@@ -1,9 +1,8 @@
 import asyncio
 
-from time import time
 from functools import lru_cache
+from time import time
 
-import aiohttp
 import asyncpg
 
 @lru_cache(maxsize=32)

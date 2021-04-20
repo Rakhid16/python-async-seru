@@ -1,6 +1,6 @@
-from time import time
 from functools import lru_cache
 from multiprocessing import Pool
+from time import time
 
 import requests
 import psycopg2
