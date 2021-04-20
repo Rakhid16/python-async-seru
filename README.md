@@ -16,11 +16,12 @@ $ python3 create_db.py
 | Method | Seconds  |
 | :---:   | :-: |
 | Synchronous | 131 or 199 |
-| Parallel | 8.6 |
+| Multiprocess | 8.6 |
+| Multiprocess | 8.6 |
 | Asynchronous | 2.7 |
 
 ## DB Scenario
-| Row | Synchronous | Asynchronous |
+| Rows | Synchronous | Asynchronous |
 | :---:   | :-: | :-: |
 | 43104 | 6.6 s | - |
 | 86208 | - | 2 s |
@@ -34,3 +35,9 @@ $ python3 create_db.py
 | :---:   | :-: |
 | Synchronous | 7.9 |
 | Asynchronous | 6.7 |
+
+## Multithread with Sync/Async Scenario
+| Method | Seconds  |
+| :---:   | :-: |
+| Synchronous | 9.0 |
+| Asynchronous | 8.8 |
